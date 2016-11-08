@@ -46,10 +46,8 @@ class ThemeSupportCommand extends Command
 		$this->makeDirectory(base_path('/public/themes/admin'));
 		$this->makeDirectory(base_path('/public/themes/default'));
 		$this->makeDirectory(base_path('/public/themes/admin/assets'));
-		$this->makeDirectory(base_path('/public/themes/admin/lang'));
 		$this->makeDirectory(base_path('/public/themes/admin/views'));
 		$this->makeDirectory(base_path('/public/themes/default/assets'));
-		$this->makeDirectory(base_path('/public/themes/default/lang'));
 		$this->makeDirectory(base_path('/public/themes/default/views'));;
 		
 		if(file_exists(base_path('resources/views/welcome.blade.php'))) {
