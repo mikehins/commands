@@ -3,7 +3,7 @@ Commands for Laravel
 
 ##ThemeSupportCommand
 
-Add a theme folder inside the public folder to store your frontend and your backend views
+Add a theme folder inside the public folder to store your frontend and your backend views. Laravel will now be able to load views from the new directories.
 
 ```
 php artisan krobar:theme
